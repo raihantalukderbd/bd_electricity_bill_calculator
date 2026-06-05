@@ -1,0 +1,16 @@
+{
+  "currency": "BDT",
+  "vatPercentage": 5,
+  "loadCount": 1,
+  "demandCharge": 42,
+  "meterRent": 40,
+  "customerType": "Residential",
+  "slabs": [
+    { "id": "slab-1", "title": "0 - 75", "fromUnit": 0, "toUnit": 75, "maxUnit": 75, "rate": 5.26 },
+    { "id": "slab-2", "title": "76 - 200", "fromUnit": 76, "toUnit": 200, "maxUnit": 125, "rate": 7.2 },
+    { "id": "slab-3", "title": "201 - 300", "fromUnit": 201, "toUnit": 300, "maxUnit": 100, "rate": 7.59 },
+    { "id": "slab-4", "title": "301 - 400", "fromUnit": 301, "toUnit": 400, "maxUnit": 100, "rate": 8.02 },
+    { "id": "slab-5", "title": "401 - 600", "fromUnit": 401, "toUnit": 600, "maxUnit": 200, "rate": 12.67 },
+    { "id": "slab-6", "title": "Above 600", "fromUnit": 601, "toUnit": null, "maxUnit": null, "rate": 14.61 }
+  ]
+}
