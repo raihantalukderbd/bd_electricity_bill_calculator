@@ -13,7 +13,7 @@ export const fallbackRateConfig: RateConfig = {
 
 export async function loadRateConfig(): Promise<{ config: RateConfig; loadedFromJson: boolean; message: string }> {
   try {
-    const response = await fetch('/electricity-rates.json', { cache: 'no-store' });
+    const response = await fetch('https://raihantalukderbd.github.io/bd-bill-calculator/electricity-rates.json', { cache: 'no-store' });
     if (!response.ok) throw new Error(`Config request failed with ${response.status}`);
     const config = normalizeConfig(await response.json());
     return { config, loadedFromJson: true, message: 'Rates loaded' };
